@@ -12,7 +12,7 @@ body {
 .site-nav a {
     color: #212121;
 }
-.site-nav >a link {
+.site-nav .link {
     color: #2196F3;
 }
 .site-nav .link: :hover{
