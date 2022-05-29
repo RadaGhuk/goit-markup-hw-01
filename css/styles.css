@@ -1,20 +1,45 @@
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --primary-bg-color: #2196F3;
+}
 body {
     color: #757575;
     background-color: #E5E5E5;
 }
 .logo {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .list {
     list-style: none;
 }
 /* site nav */
 .site-nav a {
-    color: #212121;
+    color: var(--primary-text-color);
 }
-.site-nav .link {
-    color: #2196F3;
+.site-nav .link-studiy {
+    color: var(--accent-color);
 }
-.site-nav .link: :hover{
+.site-nav .link :hover,
+.site-nav .link :focus {
     color: #000;
+}
+/* Hero */
+.hero-title {
+    color: var(--title-text-color);
+}
+/* Section */
+.section-title {
+    color: var(--primary-text-color);
+}
+/* Feature */
+.feature-list .title {
+    color: var(--primary-text-color);
+}
+/* Example */
+/* button */
+.button {
+    color: var(--title-text-color);
+    background-color: var(--primary-bg-color);
 }
